@@ -44,20 +44,12 @@
   align-self: flex-end;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .about-content::before {
     display: none;
   }
 
-  .about-content {
-    gap: 20px;
-  }
-
   .about p {
     font-size: 1rem;
-  }
-
-  .about p::before {
-    left: -25px;
   }
 }

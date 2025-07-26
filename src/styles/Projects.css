@@ -84,3 +84,19 @@
 #more-projects-button:hover {
   background: red;
 }
+
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+  }
+
+  .project-tile {
+    margin-bottom: 20px;
+  }
+
+  #more-projects-button {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
