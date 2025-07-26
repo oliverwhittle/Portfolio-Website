@@ -44,7 +44,7 @@ const Projects = () => (
   <section id="projects" className="projects">
     <h2>My Projects</h2>
     <p id="project-intro">
-      Here are some of the projects I've worked on. Click on any project to view its repository.
+      Here are some of the projects I've worked on. Click on a project to view its repository.
     </p>
     <div className="project-grid">
       {projects.map((project, index) => (
@@ -66,7 +66,7 @@ const Projects = () => (
       ))}
     </div>
     <button onClick={() => window.location.href='https://github.com/oliverwhittle?tab=repositories'} id="more-projects-button">
-      Load More Projects →
+      View All Projects →
     </button>
   </section>
 );
