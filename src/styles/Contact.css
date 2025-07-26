@@ -1,0 +1,67 @@
+.contact {
+  background-color: #0d1b2a;
+  padding: 2px 20px 80px 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  z-index: 1000;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  font-size: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(255, 0, 0, 0.404);
+  color: red;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.custom-shape-divider-bottom-1753488463 {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1753488463 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 42px;
+}
+
+.custom-shape-divider-bottom-1753488463 .shape-fill {
+    fill: #0D1B2A;
+}

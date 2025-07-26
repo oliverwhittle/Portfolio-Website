@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 4em;
+    line-height: 1.2;
+    text-align: center;
+    color: white;
+}
+
+h2>span {
+    position: relative;
+    display: inline-block;
+    color: red;
+    vertical-align: middle;
+    overflow: hidden;
+    height: 1.25em;
+    padding-left: 0.33em;
+}
+
+h2>span>span {
+    display: block;
+    text-align: left;
+    animation: anim 10s infinite ease;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0%);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    75% {
+        transform: translateY(-300%);
+    }
+    100% {
+        transform: translateY(-400%);
+    }
+}
